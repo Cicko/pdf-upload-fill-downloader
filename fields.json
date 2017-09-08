@@ -1,0 +1,446 @@
+[
+	{
+		"id": "numero_de_documento",
+		"type": "alpha",
+		"calc": false,
+		"value": "B76682186/XXX"
+	},
+	{
+		"id": "establecimiento",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "N_de_registro",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "razon_social",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "nif",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "direcci_n",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "municipio",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "cp",
+		"type": "number",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "lugar_de_recogida",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "fecha_de_recogida",
+		"type": "date",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n1",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza1",
+		"type": "alpha",
+		"calc": false,
+		"value": "SANDACH"
+	},
+	{
+		"id": "categoria1",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso1",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza2",
+		"type": "alpha",
+		"calc": false,
+		"value": "SANDACH"
+	},
+	{
+		"id": "categoria2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n3",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza3",
+		"type": "alpha",
+		"calc": false,
+		"value": "SANDACH"
+	},
+	{
+		"id": "categoria3",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso3",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n4",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza4",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "categoria4",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso4",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n5",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza5",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "categoria5",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso5",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n6",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza6",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "categoria6",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso6",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "descripci_n7",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "naturaleza7",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "categoria7",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "peso7",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "destino",
+		"type": "alpha",
+		"calc": false,
+		"value": "CREMACAN"
+	},
+	{
+		"id": "municipio_1",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "D_a_1",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "Mes_2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "A_o",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "nombre_en_mayusculas",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "numero_de_documento",
+		"type": "alpha",
+		"calc": false,
+		"value": "B76682186/XXX"
+	},
+	{
+		"id": "N_de_registro_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "S38032002"
+	},
+	{
+		"id": "Matr_cula",
+		"type": "alpha",
+		"calc": false,
+		"value": "6744 JXS"
+	},
+	{
+		"id": "razon_social_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "GASIC S.L.U. NIF: B76682186"
+	},
+	{
+		"id": "direcci_n_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "C/ Campana. Manzana 5-A. Nave 1. Polígono Industrial San Isidro."
+	},
+	{
+		"id": "municipio_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "El Rosario"
+	},
+	{
+		"id": "cp_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "38109"
+	},
+	{
+		"id": "municipio_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "El Rosario"
+	},
+	{
+		"id": "dia2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "Mes_2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "A_o",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "N_de_registro_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "S38032002"
+	},
+	{
+		"id": "razon_social_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "GASIC S.L.U. NIF: B76682186"
+	},
+	{
+		"id": "direcci_n_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "C/ Campana. Manzana 5-A. Nave 1. Polígono Industrial San Isidro."
+	},
+	{
+		"id": "municipio_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "El Rosario"
+	},
+	{
+		"id": "cp_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "38109"
+	},
+	{
+		"id": "municipio_transporte",
+		"type": "alpha",
+		"calc": false,
+		"value": "El Rosario"
+	},
+	{
+		"id": "dia2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "nombre_en_mayusculas_2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "Mes_2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "nombre_en_mayusculas_2",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "FECHA_DE_RECEPCI_N",
+		"type": "date",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "cantidad_recibida",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	},
+	{
+		"id": "A_o",
+		"type": "alpha",
+		"calc": false,
+		"value": ""
+	}
+]
