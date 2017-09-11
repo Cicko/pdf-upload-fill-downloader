@@ -1,0 +1,1 @@
+No me deja pasar parámetros en el body mientras mando un fichero también

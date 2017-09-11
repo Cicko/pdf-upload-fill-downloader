@@ -30,7 +30,44 @@ app.get('/', (req, res) => {
   </form>')
 })
 
+app.post('/pdf', (req, res) => {
+  console.log("Solicitado /pdf")
+  var fstream
+  req.pipe(req.busboy)
+  req.busboy.on('file', function (fieldname, file, filename) {
+    console.log("Sent " + filename)
+    sourcePDF = path.join(__dirname, 'img', filename)
+
+    console.log(req.headers)
+
+    res.send("hola")
+/*
+    if (req.body) {
+      var pdf = pdfFillForm.writeSync(sourcePDF, req.body, { "save": "pdf" } );
+      fs.writeFile(destinationPDF, pdf, (err) => {
+        if (!err)
+        res.download(destinationPDF)
+        else
+        res.send("ERROR NIÑO")
+      });
+    }
+    else {
+      fstream = fs.createWriteStream(sourcePDF)
+      file.pipe(fstream)
+      fstream.on('close', function () {
+        console.log("Upload finished of " + filename)
+        pdfFillForm.read(path.join(__dirname, 'img', filename))
+        .then(function(result) {
+          res.write(JSON.stringify(result, null, "\t"))
+        })
+      })
+    }*/
+  })
+
+})
+
 app.post('/form', (req, res) => {
+  console.log("Solicitado /form")
    var fstream;
    req.pipe(req.busboy);
    req.busboy.on('file', function (fieldname, file, filename) {
@@ -47,7 +84,16 @@ app.post('/form', (req, res) => {
            .then(function(result) {
                for (var i = 0; i < result.length; i++) {
                  var field = result[i]
-                 var string = `${field.name}: <input type='text' name='${field.id}' value='${field.value}'><br>`
+                 if (field.type == 'text')
+                  var string = `${field.name}: <input type='text' name='${field.id}' value='${field.value}'><br>`
+                 else {
+                   var string = `<select name='${field.id}'>`
+                   for (var j = 0; j < field.choices.length; j++) {
+                     var choice = field.choices[j]
+                     string += `<option name='value='${choice}'>${choice}</option>`
+                   }
+                   string += '</select>'
+                 }
                  html += string
                  if (i == result.length - 1) {
                    html += "<input type='submit' value='submit'></form></body></html>"
@@ -62,6 +108,7 @@ app.post('/form', (req, res) => {
 })
 
 app.post('/download', (req, res) => {
+  console.log("Solicitado /download")
   var pdf = pdfFillForm.writeSync(sourcePDF, req.body, { "save": "pdf" } );
   fs.writeFile(destinationPDF, pdf, (err) => {
     if (!err)
